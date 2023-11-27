@@ -10,6 +10,6 @@ class Bkl < Formula
 
   def install
     ENV["CGOENABLED"] = "0"
-    system "go", "build", "-trimpath", *std_go_args(ldflags: "-extldflags=-static")
+    system "go", "build", "-trimpath", "-ldflags=-extldflags=-static", "-o", "#{bin}/", "./..."
   end
 end
