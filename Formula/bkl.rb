@@ -1,8 +1,8 @@
 class Bkl < Formula
   desc "Evaluates bkl configuration layer files"
   homepage "https://bkl.gopatchy.io"
-  url "https://github.com/gopatchy/bkl/archive/refs/tags/v1.0.31.tar.gz"
-  sha256 "9b8062ea0d468719e419497c08bfacd3d57128f8e2b1df24a67379e0b267ae9c"
+  url "https://github.com/gopatchy/bkl/archive/refs/tags/v1.0.32.tar.gz"
+  sha256 "8710789ad436509c913ee0f71c83c6a48fcae3541eb3818f2cb73f48143cba11"
   license "Apache-2.0"
   head "https://github.com/gopatchy/bkl/", branch: "main"
 
