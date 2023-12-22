@@ -1,5 +1,8 @@
 class Bkl < Formula
-  tag "v1.0.35"
+  def tag
+    return "v1.0.35"
+  end
+
   desc "Evaluates bkl configuration layer files"
   homepage "https://bkl.gopatchy.io"
   url "https://github.com/gopatchy/bkl/archive/refs/tags/#{tag}.tar.gz"
