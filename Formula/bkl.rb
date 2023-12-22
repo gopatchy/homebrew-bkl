@@ -12,6 +12,6 @@ class Bkl < Formula
 
   def install
     ENV["CGOENABLED"] = "0"
-    system "go", "build", "-tags=bkl-#{@@tag}", "-trimpath", "-ldflags=-extldflags=-static", "-o", "#{bin}/", "./..."
+    system "go", "build", "-tags=bkl-#{@@tag},bkl-src-brew", "-trimpath", "-ldflags=-extldflags=-static", "-o", "#{bin}/", "./..."
   end
 end
