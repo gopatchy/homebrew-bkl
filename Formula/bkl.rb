@@ -6,7 +6,7 @@ class Bkl < Formula
   homepage "https://bkl.gopatchy.io"
   url "https://github.com/gopatchy/bkl/archive/refs/tags/#{@@tag}.tar.gz"
   license "Apache-2.0"
-  head "https://github.com/gopatchy/bkl/", branch: "main"
+  head "https://github.com/gopatchy/bkl.git", branch: "main"
 
   depends_on "go" => :build
 
