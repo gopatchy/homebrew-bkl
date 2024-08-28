@@ -1,6 +1,6 @@
 class Bkl < Formula
-  @@tag = "v1.0.40"
-  sha256 "fa18af56e4f65b0e9ff51f1271f67bce262008a1224b405807049be990790f65"
+  @@tag = "v1.0.41"
+  sha256 "6f932f17882fea96f5a5fdd5e47b1e15cdbfa06f9be8a1d203ce76a334f17d97"
 
   desc "Evaluates bkl configuration layer files"
   homepage "https://bkl.gopatchy.io"
